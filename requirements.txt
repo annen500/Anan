@@ -1,0 +1,2 @@
+Kivy[base]==2.3.1
+pyinstaller>=6.11,<7
