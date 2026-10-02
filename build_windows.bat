@@ -26,7 +26,7 @@ if errorlevel 1 goto :failed
 python -m pip install -r requirements.txt
 if errorlevel 1 goto :failed
 
-python -m PyInstaller --noconfirm --clean --windowed --name BarisAI --collect-all kivy --collect-all kivy_deps.sdl2 --collect-all kivy_deps.glew --collect-all kivy_deps.angle main.py
+python -m PyInstaller --noconfirm --clean --windowed --name BarisAI --collect-all kivy_deps.sdl2 --collect-all kivy_deps.glew --collect-all kivy_deps.angle main.py
 if errorlevel 1 goto :failed
 
 echo.
